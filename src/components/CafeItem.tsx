@@ -38,7 +38,6 @@ const CafeItem = ({ photo, title, price, alt, btnId }: CafeItemProps) => {
         <span className={"cafe-item-price"}>{price}₽</span>
       </div>
       <div className="cafe-item-buttons">
-
         {counterValue ? <button className={" cafe-item-decrease-button"} id={btnId} onClick={handleDecreaseButtonClick}>-</button> : ""}
             <button className={counterValue ? "cafe-item-increase-button" : "cafe-item-add-button"} id={btnId} onClick={handleIncreaseButtonClick}>
               {counterValue ? "+" : "добавить"}
