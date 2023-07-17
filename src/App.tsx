@@ -6,6 +6,7 @@ import CafeOrder from "./components/CafeOrder";
 
 function App() {
   const [isOrdering, setIsOrdering] = useState(false)
+
   return (
     <div className="App">
       {isOrdering ? <CafeOrder/> : <CafePage/>}
