@@ -1,14 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import './styles/css/style.css';
 import CafePage from "./components/CafePage";
 import CafeOrder from "./components/CafeOrder";
 
 function App() {
+  const [isOrdering, setIsOrdering] = useState(false)
   return (
     <div className="App">
-      <CafePage/>
-      <CafeOrder/>
+      {isOrdering ? <CafeOrder/> : <CafePage/>}
     </div>
   );
 }

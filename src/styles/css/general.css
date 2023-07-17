@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--tg-theme-text-color);
+  background: var(--tg-theme-bg-color);
+}
+
+body {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+  color-scheme: var(--tg-color-scheme);
+}/*# sourceMappingURL=general.css.map */
